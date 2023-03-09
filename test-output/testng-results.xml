@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-09T10:17:24 IST" name="Suite" finished-at="2023-03-09T10:18:11 IST" duration-ms="47672">
+    <groups>
+      <group name="minor">
+        <method signature="AddandVerifyExamMarks.addandVerifyExamMarks()[pri:0, instance:edu.sms.guardian.AddandVerifyExamMarks@6283d8b8]" name="addandVerifyExamMarks" class="edu.sms.guardian.AddandVerifyExamMarks"/>
+      </group> <!-- minor -->
+      <group name="major">
+        <method signature="AddAndVerifyAssignedSubject.addAndVerifyAssignedSubject()[pri:0, instance:edu.sms.guardian.AddAndVerifyAssignedSubject@56cdfb3b]" name="addAndVerifyAssignedSubject" class="edu.sms.guardian.AddAndVerifyAssignedSubject"/>
+      </group> <!-- major -->
+      <group name="regression">
+        <method signature="AddAndVerifyAssignedSubject.addAndVerifyAssignedSubject()[pri:0, instance:edu.sms.guardian.AddAndVerifyAssignedSubject@56cdfb3b]" name="addAndVerifyAssignedSubject" class="edu.sms.guardian.AddAndVerifyAssignedSubject"/>
+        <method signature="AddAndVerifyMySonsTimetable.addAndVerifyMySonsTimetable()[pri:0, instance:edu.sms.guardian.AddAndVerifyMySonsTimetable@3f6b0be5]" name="addAndVerifyMySonsTimetable" class="edu.sms.guardian.AddAndVerifyMySonsTimetable"/>
+        <method signature="AddandVerifyExamMarks.addandVerifyExamMarks()[pri:0, instance:edu.sms.guardian.AddandVerifyExamMarks@6283d8b8]" name="addandVerifyExamMarks" class="edu.sms.guardian.AddandVerifyExamMarks"/>
+      </group> <!-- regression -->
+      <group name="system testing">
+        <method signature="AddAndVerifyMySonsTeacher.addAndVerifyMySonsTeacher()[pri:0, instance:edu.sms.guardian.AddAndVerifyMySonsTeacher@3b6ddd1d]" name="addAndVerifyMySonsTeacher" class="edu.sms.guardian.AddAndVerifyMySonsTeacher"/>
+        <method signature="AddAndVerifyMySonsTimetable.addAndVerifyMySonsTimetable()[pri:0, instance:edu.sms.guardian.AddAndVerifyMySonsTimetable@3f6b0be5]" name="addAndVerifyMySonsTimetable" class="edu.sms.guardian.AddAndVerifyMySonsTimetable"/>
+      </group> <!-- system testing -->
+    </groups>
+    <test started-at="2023-03-09T10:17:24 IST" name="Test" finished-at="2023-03-09T10:18:11 IST" duration-ms="47672">
+      <class name="edu.sms.guardian.AddAndVerifyMySonsTeacher">
+        <test-method is-config="true" signature="initializationSetup(java.lang.String)[pri:0, instance:edu.sms.guardian.AddAndVerifyMySonsTeacher@3b6ddd1d]" started-at="2023-03-09T10:17:49 IST" name="initializationSetup" finished-at="2023-03-09T10:17:50 IST" duration-ms="1772" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializationSetup -->
+        <test-method signature="addAndVerifyMySonsTeacher()[pri:0, instance:edu.sms.guardian.AddAndVerifyMySonsTeacher@3b6ddd1d]" started-at="2023-03-09T10:17:50 IST" name="addAndVerifyMySonsTeacher" finished-at="2023-03-09T10:17:57 IST" duration-ms="6655" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAndVerifyMySonsTeacher -->
+        <test-method is-config="true" signature="initializationTearDown()[pri:0, instance:edu.sms.guardian.AddAndVerifyMySonsTeacher@3b6ddd1d]" started-at="2023-03-09T10:17:57 IST" name="initializationTearDown" finished-at="2023-03-09T10:17:57 IST" duration-ms="393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializationTearDown -->
+      </class> <!-- edu.sms.guardian.AddAndVerifyMySonsTeacher -->
+      <class name="edu.sms.guardian.AddAndVerifyMySonsTimetable">
+        <test-method is-config="true" signature="initializationSetup(java.lang.String)[pri:0, instance:edu.sms.guardian.AddAndVerifyMySonsTimetable@3f6b0be5]" started-at="2023-03-09T10:17:57 IST" name="initializationSetup" finished-at="2023-03-09T10:17:59 IST" duration-ms="1833" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializationSetup -->
+        <test-method signature="addAndVerifyMySonsTimetable()[pri:0, instance:edu.sms.guardian.AddAndVerifyMySonsTimetable@3f6b0be5]" started-at="2023-03-09T10:17:59 IST" name="addAndVerifyMySonsTimetable" finished-at="2023-03-09T10:18:11 IST" duration-ms="11940" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAndVerifyMySonsTimetable -->
+        <test-method is-config="true" signature="initializationTearDown()[pri:0, instance:edu.sms.guardian.AddAndVerifyMySonsTimetable@3f6b0be5]" started-at="2023-03-09T10:18:11 IST" name="initializationTearDown" finished-at="2023-03-09T10:18:11 IST" duration-ms="344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializationTearDown -->
+      </class> <!-- edu.sms.guardian.AddAndVerifyMySonsTimetable -->
+      <class name="edu.sms.guardian.AddandVerifyExamMarks">
+        <test-method is-config="true" signature="initializationSetup(java.lang.String)[pri:0, instance:edu.sms.guardian.AddandVerifyExamMarks@6283d8b8]" started-at="2023-03-09T10:17:39 IST" name="initializationSetup" finished-at="2023-03-09T10:17:41 IST" duration-ms="1734" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializationSetup -->
+        <test-method signature="addandVerifyExamMarks()[pri:0, instance:edu.sms.guardian.AddandVerifyExamMarks@6283d8b8]" started-at="2023-03-09T10:17:41 IST" name="addandVerifyExamMarks" finished-at="2023-03-09T10:17:48 IST" duration-ms="7444" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addandVerifyExamMarks -->
+        <test-method is-config="true" signature="initializationTearDown()[pri:0, instance:edu.sms.guardian.AddandVerifyExamMarks@6283d8b8]" started-at="2023-03-09T10:17:48 IST" name="initializationTearDown" finished-at="2023-03-09T10:17:49 IST" duration-ms="506" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializationTearDown -->
+      </class> <!-- edu.sms.guardian.AddandVerifyExamMarks -->
+      <class name="edu.sms.guardian.AddAndVerifyAssignedSubject">
+        <test-method is-config="true" signature="initializationSetup(java.lang.String)[pri:0, instance:edu.sms.guardian.AddAndVerifyAssignedSubject@56cdfb3b]" started-at="2023-03-09T10:17:24 IST" name="initializationSetup" finished-at="2023-03-09T10:17:27 IST" duration-ms="3645" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializationSetup -->
+        <test-method signature="addAndVerifyAssignedSubject()[pri:0, instance:edu.sms.guardian.AddAndVerifyAssignedSubject@56cdfb3b]" started-at="2023-03-09T10:17:27 IST" name="addAndVerifyAssignedSubject" finished-at="2023-03-09T10:17:39 IST" duration-ms="11230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAndVerifyAssignedSubject -->
+        <test-method is-config="true" signature="initializationTearDown()[pri:0, instance:edu.sms.guardian.AddAndVerifyAssignedSubject@56cdfb3b]" started-at="2023-03-09T10:17:39 IST" name="initializationTearDown" finished-at="2023-03-09T10:17:39 IST" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializationTearDown -->
+      </class> <!-- edu.sms.guardian.AddAndVerifyAssignedSubject -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
